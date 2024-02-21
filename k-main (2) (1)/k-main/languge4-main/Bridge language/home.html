@@ -1,41 +1,33 @@
-<!DOCTYPE html>  <!---- تعريف نوع المستند-->
-<html lang="en">  <!---بداية العنصر -->
+<!DOCTYPE html>  
+<html lang="en">  
 
-<head> <!--بداية الراس -->
-  <meta charset="UTF-8">  <!----تحديد ترميز الصفحة -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--توافق متصفح الانترنت -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"><!---تحديد عرض الجهاز وميزة التكبير --->
+<head> 
+  <meta charset="UTF-8">  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- 
     - primary meta tag
   -->
-  <title>BRIDGE LANGUAGE</title>  <!---العنوان للموقع-->
-  <!---وصف للصفحة -->
+  <title>BRIDGE LANGUAGE</title> 
+ 
   <meta name="title" content="EduWeb - The Best Program to Enroll for Exchange">
   <meta name="description" content="This is an education html template made by codewithsadee">
 
-  <!-- 
-    - favicon  رابط ايقونة الموقع
-  -->
+  
   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
-  <!-- 
-    - custom css link  رابط ملف css 
-  -->
+ 
   <link rel="stylesheet" href="./css/style.css">
 
-  <!-- 
-    - google font link  الخطوط المنزلة 
-  -->
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
     rel="stylesheet">
 
-  <!-- 
-    - preload images  تحميل مسبق للصور 
-  -->
+ 
   <link rel="preload" as="image" href="./images/hero-bg.svg">
   <link rel="preload" as="image" href="./images/hero-banner-1 (1).jpg">
   <link rel="preload" as="image" href="./images/hero-banner-2 (1).jpg">
@@ -44,70 +36,68 @@
 
 </head>
 
-<body id="top">  <!-- بداية هيكلة وجسم الموقع -->
+<body id="top">  
 
-  <!-- 
-    - #HEADER
-  -->
 
-  <header class="header" data-header> <!--- راس الصفحة -->
-    <div class="container"> <!-- عنصر للهيدر -->
 
-      <a href="#" class="logo"> <!-- شعار الموقع-->
+  <header class="header" data-header> 
+    <div class="container"> 
+
+      <a href="#" class="logo"> 
         <img src="./images/logolan.jpeg" width="150" height="50" alt=" logo">
       </a>
 
-      <nav class="navbar" data-navbar> <!--- ازرار التنقل بالصفحة -->
+      <nav class="navbar" data-navbar> 
 
         <div class="wrapper">
           <a href="#" class="logo">
             <img src="./images/logo.svg" width="162" height="50" >
           </a>
 
-          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler><!-- زر إغلاق شريط التنقل -->
-            <ion-icon name="close-outline" aria-hidden="true"></ion-icon> <!--ايقونة الاغلاق -->
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon> 
           </button>
         </div>
 
-        <ul class="navbar-list"> <!--- قائمة شريط التنقل -->
+        <ul class="navbar-list"> 
 
           <li class="navbar-item">
-            <a href="#home" class="navbar-link" data-nav-link>Home</a> <!--- زر home -->
+            <a href="#home" class="navbar-link" data-nav-link>Home</a> 
           </li>
 
           <li class="navbar-item">
-            <a href="#about" class="navbar-link" data-nav-link>About</a><!--- زر التعريف -->
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#courses" class="navbar-link" data-nav-link>Trainers</a>  <!---  زر المدربون-->
+            <a href="#courses" class="navbar-link" data-nav-link>Trainers</a>  
           </li>
 
           <li class="navbar-item">
-            <a href="#blog" class="navbar-link" data-nav-link>Courses</a> <!--زر المناهج   -->
+            <a href="#blog" class="navbar-link" data-nav-link>Courses</a> 
           </li>
 
           <li class="navbar-item">
-            <a href="#footer" class="navbar-link" data-nav-link>Contact</a> <!---زر التواصل -->
+            <a href="#footer" class="navbar-link" data-nav-link>Contact</a> 
           </li>
 
         </ul>
 
       </nav>
 
-      <div class="header-actions"> <!-- أزرار الإجراءات -->
+      <div class="header-actions"> 
 
-        <button class="header-action-btn" aria-label="toggle search" title="Search"> <!--- زر البحث-->      
+        <button class="header-action-btn" aria-label="toggle search" title="Search">     
                             <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
         </button>
 
-        <button class="header-action-btn" aria-label="cart" title="Cart"> <!--- زر التسوق -->
+        <button class="header-action-btn" aria-label="cart" title="Cart"> 
           <ion-icon name="cart-outline" aria-hidden="true"></ion-icon>
         <a href="./information/pay.html"></a>
           <span class="btn-badge">0</span>
         </button>
 
-        <a href="Login.html" class="btn has-before" > <!-- زر التسجيل -->
+        <a href="Login.html" class="btn has-before" > 
           <span class="span">Login</span>
 
           <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
@@ -119,7 +109,7 @@
 
       </div>
 
-      <div class="overlay" data-nav-toggler data-overlay></div> <!--- تراكيب القائمة -->
+      <div class="overlay" data-nav-toggler data-overlay></div> 
 
     </div>
   </header>
@@ -136,20 +126,20 @@
       -->
 
       <section class="section hero has-bg-image" id="home" aria-label="home" 
-        style="background-image: url('./assets/images/hero-bg.svg')"><!-- بداية هيكلة home -->
-        <div class="container">  <!-- بداية عنصر للهيكلة -->
+        style="background-image: url('./assets/images/hero-bg.svg')">
+        <div class="container">  
 
-          <div class="hero-content"> <!---محتوى الصفحة -->
+          <div class="hero-content"> 
 
-            <h1 class="h1 section-title"> <!---عنوان القسم -->
+            <h1 class="h1 section-title"> 
                         A platform for <span class="span">learning</span> and exchanging the language
             </h1>
 
-            <p class="hero-text"> <!---نص تعريفي -->
+            <p class="hero-text"> 
                          Users can register and participate in various lessons and events that give them the opportunity to interact with speakers of different languages and exchange language skills.
             </p>
 
-            <a href="Trainers.html" class="btn has-before"> <!---زر للبحث عن مدرب-->
+            <a href="Trainers.html" class="btn has-before">
               <span class="span">TRAINERS</span>
 
               <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
@@ -157,7 +147,7 @@
 
           </div>
 
-          <figure class="hero-banner"> <!--- صور للصفحة -->
+          <figure class="hero-banner"> 
 
             <div class="img-holder one" style="--width: 270; --height: 300;">
               <img src="./images/hero-banner-1 (1).jpg" width="270" height="300" alt="hero banner" class="img-cover">
@@ -183,40 +173,40 @@
       <!-- 
         - #CATEGORY
       -->
-      <!--  الغرض من القسم -->
+     
 
       <section class="section category" aria-label="category">
-        <div class="container">  <!-- عنصر الحاوية الذي يحتوي على جميع عناصر القسم -->
+        <div class="container">  
 
-          <p class="section-subtitle">Categories</p>   <!-- عنوان فرعي للقسم يظهر على شكل فقرة، يوضح أنها فئات -->
+          <p class="section-subtitle">Categories</p>   
 
-          <h2 class="h2 section-title"><!-- عنوان رئيسي للقسم يظهر على شكل ترويسة من المستوى الثاني، يتضمن نص "Learn now online with us" مع إضافة نمط للكلمة "now" باستخدام العنصر <span> لتغيير النمط -->
+          <h2 class="h2 section-title">
              Learn <span class="span">now</span>  online with us
           </h2>
 
-          <p class="section-text">  <!-- نص توضيحي للقسم يوضح الغرض منه -->
+          <p class="section-text">  
                         Learn easily and with various categories within the platform
           </p>
 
-          <ul class="grid-list">    <!-- قائمة غير مرتبة لعناصر القسم -->
+          <ul class="grid-list">   
 
-            <li>  <!-- عنصر في القائمة -->
-              <div class="category-card" style="--color: 170, 75%, 41%">        <!-- بطاقة الفئة تظهر كبطاقة بصورة ونص -->
+            <li>  
+              <div class="category-card" style="--color: 170, 75%, 41%">       
 
-                <div class="card-icon">  <!-- عنصر يحتوي على أيقونة للفئة -->
+                <div class="card-icon">  
                   <img src="./images/category-1.svg" width="40" height="40" loading="lazy"
                     alt="Online Degree Programs" class="img">
                 </div>
 
-                <h3 class="h3">   <!-- عنوان للفئة يتضمن رابطاً للانتقال إلى المزيد من المعلومات -->
+                <h3 class="h3">   
                   <a href="#" class="card-title">Learn English </a>
                 </h3>
 
-                <p class="card-text">   <!-- نص يوضح تفاصيل الفئة -->
+                <p class="card-text">   
                         Learn English at the beginner level with teachers with extensive experience
                 </p>
 
-                <span class="card-badge">SOON</span>    <!-- عنصر يوضح معلومات إضافية حول الفئة -->
+                <span class="card-badge">SOON</span>    
 
               </div>
             </li>
@@ -293,18 +283,13 @@
 
 
 
-      <!-- 
-        - #ABOUT  يوضح أن القسم يرتبط بالمعلومات حول الصفحة أو الموقع.
-      -->
      
 
-      <section class="section about" id="about" aria-label="about"><!-- 
-                        -  يُعرف قسم في صفحة الويب بفئة وهوية معينة ويستخدم لتوفير تسمية قابلة للوصول.
-                      -->
+      <section class="section about" id="about" aria-label="about"> 
         <div class="container">
-                        <!--   يستخدم لتنظيم وتحديد مجالات معينة من المحتوى على الصفحة. -->
+                  
 
-          <figure class="about-banner"> <!-- - عنصر: يُستخدم لتجميع العناصر المرئية والرسومات. -->
+          <figure class="about-banner"> 
                         
                 
 
@@ -324,11 +309,11 @@
 
           </figure>
 
-          <div class="about-content"><!---يُستخدم لتنظيم وتجميع النصوص والمحتوى ذو الصلة-->
+          <div class="about-content">
 
             <p class="section-subtitle">About Us</p>
 
-            <h2 class="h2 section-title"> <!-- عنوان -->
+            <h2 class="h2 section-title"> 
                         More than 5 years of <span class="span">education</span>  
             </h2>
 
@@ -338,7 +323,7 @@
                         fun and effective way.
             </p>
 
-            <ul class="about-list"><!---قائمة -->
+            <ul class="about-list"> 
 
               <li class="about-item">
                 <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
@@ -376,53 +361,52 @@
         - #TRAINERS
       -->
 
-      <section class="section course" id="courses" aria-label="course"><!-- للكورسات -->
-        <div class="container"><!---تحديد الفقرة  -->
+      <section class="section course" id="courses" aria-label="course">
+        <div class="container">
 
-          <p class="section-subtitle">Trainers available</p><!--- فقرة نصية للتعريف-->
+          <p class="section-subtitle">Trainers available</p>
 
-          <h2 class="h2 section-title">Choose a coach to get started</h2><!---عنوان الفقرة الرئيسي -->
+          <h2 class="h2 section-title">Choose a coach to get started</h2>
 
-          <ul class="grid-list"> <!---قائمة -->
-
+          <ul class="grid-list"> 
             <li>
               <div class="course-card">
 
-                <figure class="card-banner img-holder" style="--width: 370; --height: 220;"><!---<figure> لتجميع العناصر التي تشمل الصور-->
+                <figure class="card-banner img-holder" style="--width: 370; --height: 220;">
                   <img src="./images/course-1.jpg" width="370" height="220" loading="lazy"
                     alt="Build Responsive Real- World Websites with HTML and CSS" class="img-cover">
                 </figure>
 
-                <div class="abs-badge"><!--يُستخدم لتجميع الرمز الزمني والنص-->
-                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon><!--يُستخدم لإظهار رمز الوقت أو الساعة-->
+                <div class="abs-badge">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
 
-                  <span class="span">3 Weeks</span><!--يُظهر مدة الدورة التدريبية بالأسابيع-->
+                  <span class="span">3 Weeks</span>
                 </div>
 
-                <div class="card-content"><!---يُستخدم لتجميع محتوى بطاقة المعلومات-->
+                <div class="card-content">
 
-                  <span class="badge">Beginner</span><!-- يُظهر علامة "Beginner" لتحديد مستوى الصعوبة أو المهارة-->
+                  <span class="badge">Beginner</span>
 
-                  <h3 class="h3"> <!--يُستخدم لعرض عناوين المحتوى-->
-                    <a href="#" class="card-title">Learn English from scratch by speaking</a><!---يُستخدم لتحديد رابط العنوان-->
+                  <h3 class="h3"> 
+                    <a href="#" class="card-title">Learn English from scratch by speaking</a>
                   </h3>
 
-                  <div class="wrapper"><!--يُستخدم كحاوية عامة للعناصر داخله-->
+                  <div class="wrapper">
 
-                    <div class="rating-wrapper"><!--يُستخدم لتجميع العناصر ذات العلامة الخاصة بتقييم المستخدم-->
-                      <ion-icon name="star"></ion-icon><!---يُستخدم لإظهار أيقونة النجمة-->
+                    <div class="rating-wrapper">
                       <ion-icon name="star"></ion-icon>
                       <ion-icon name="star"></ion-icon>
                       <ion-icon name="star"></ion-icon>
                       <ion-icon name="star"></ion-icon>
-                      <!--عناصر مكررة: تُستخدم لعرض 5 نجوم تشير إلى تقييم 5 نجوم-->
+                      <ion-icon name="star"></ion-icon>
+                      
                     </div>
 
-                    <p class="rating-text">(5.0/7 Rating)</p><!---فقرة لتوضيح التقييم -->
+                    <p class="rating-text">(5.0/7 Rating)</p>
 
                   </div>
 
-                  <data class="price" value="29">$49.00</data><!-- لتوضيح السعر -->
+                  <data class="price" value="29">$49.00</data>
 
                   <ul class="card-meta-list">
 
@@ -528,19 +512,16 @@
 
 
 
-      <!-- 
-        - #VIDEO
-      -->
 
       <section class="video has-bg-image" aria-label="video"
-        style="background-image: url('./assets/images/video-bg.png')"><!-- يُستخدم لتحديد قسم في الصفحة ويحمل فئات وخصائص محددة-->
-        <div class="container"><!---يُستخدم كحاوية لتنظيم وتجميع المحتوى داخل القس-->
+        style="background-image: url('./assets/images/video-bg.png')">
+        <div class="container">
 
-          <div class="video-card"><!--يُستخدم لتجميع العناصر المتعلقة بالفيديو-->
+          <div class="video-card">
 
-            <div class="video-banner img-holder has-after" style="--width: ; --height: ;"><!--يُستخدم لتجميع الصورة الرئيسية للفيديو-->
+            <div class="video-banner img-holder has-after" style="--width: ; --height: ;">
               <img src="./images/video-banner.jpg" width="970" height="550" loading="lazy" alt="video banner"
-                class="img-cover"><!--يُظهر صورة بتحديد أبعاد وخاصية التحميل الكسلاني-->
+                class="img-cover">
 
              
             </div>
@@ -560,23 +541,18 @@
 
 
 
-      <!-- 
-        - #STATE  القسم يتعلق بالإحصائيات أو المعلومات الرقمية
-      -->
+     
 
-      <section class="section stats" aria-label="stats"> <!---يُستخدم لتعريف قسم في الصفحة وتحديد خصائصه-->
-        <div class="container"> <!---يُستخدم كحاوية لتنظيم وتجميع المحتوى داخل القسم-->
+      <section class="section stats" aria-label="stats"> 
+        <div class="container"> 
 
-          <ul class="grid-list"> <!-- يُستخدم لعرض قائمة-->
+          <ul class="grid-list"> 
 
-            <li> <!--لتحديد عنصر في القائمة-->
-              <div class="stats-card" style="--color: 170, 75%, 41%"><!--  
-                        -  يُستخدم لتجميع معلومات الإحصائيات.
-                        -  يستخدم لتحديد لون العنصر بناءً على نموذج HSL.
-                      -->
-                <h3 class="card-title">10.8k</h3> <!---يُظهر عنوانًا للبيانات الإحصائية-->
+            <li> 
+              <div class="stats-card" style="--color: 170, 75%, 41%">
+                <h3 class="card-title">10.8k</h3> 
 
-                <p class="card-text">Student Enrolled</p> <!--يُظهر نصًا وصفيًا للبيانات الإحصائية-->
+                <p class="card-text">Student Enrolled</p> 
               </div>
             </li>
 
@@ -613,31 +589,28 @@
 
 
 
-      <!-- 
-       المناهج 
-      -->
-
+     
       <section class="section blog has-bg-image" id="blog" aria-label="blog"
-        style="background-image: url('./assets/images/blog-bg.svg')"><!--يُستخدم لتحديد قسم في الصفحة وتحديد خصائصه-->
-        <div class="container"> <!---لتنظيم وتجميع المحتوى داخل القسم-->
+        style="background-image: url('./assets/images/blog-bg.svg')">
+        <div class="container"> 
 
-          <p class="section-subtitle">The Most Important Courses</p> <!--عرض عنوان فرعي للقسم-->
+          <p class="section-subtitle">The Most Important Courses</p> 
 
-          <h2 class="h2 section-title">Courses</h2> <!---يُستخدم لعرض عنوان رئيسي للقسم-->
+          <h2 class="h2 section-title">Courses</h2> 
 
-          <ul class="grid-list"> <!---يُستخدم لعرض قائمة غير مرتبة-->
+          <ul class="grid-list"> 
 
             <li>
-              <div class="blog-card"> <!--يُستخدم لتجميع المحتوى المتعلق بالخبر-->
+              <div class="blog-card"> 
 
-                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;"> <!--يُستخدم لتجميع الصورة الرئيسية للخبر-->
+                <figure class="card-banner img-holder has-after" style="--width: 370; --height: 370;"> 
                   <img src="./images/English Language (1).png" width="370" height="370" loading="lazy"
                     alt="Become A Better Blogger: Content Planning" class="img-cover">
                 </figure>
 
-                <div class="card-content"> <!--يُستخدم لتجميع المحتوى داخل بطاقة الخبر-->
+                <div class="card-content"> 
 
-                  <a href="#" class="card-btn" aria-label="read more"> <!--يُستخدم لتحديد رابط لقراءة المزيد عن الخبر-->
+                  <a href="#" class="card-btn" aria-label="read more"> 
                     <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
                   </a>
 
@@ -734,9 +707,7 @@
 
 
 
-  <!-- 
-    - #FOOTER معلومات المنصة 
-  -->
+  
 
   <footer class="footer" style="background-image: url('./images/footer-bg.png')" id="footer">
 
@@ -745,7 +716,7 @@
 
         <div class="footer-brand">
 
-          <a href="#" class="logo"><!--اضافة شعار المنصة -->
+          <a href="#" class="logo">
             <img src="./images/logolan.jpeg" width="106" height="50" alt="logo logo">
           </a>
 
@@ -870,9 +841,7 @@
 
 
 
-  <!-- 
-    - #BACK TO TOP
-  -->
+  
 
   <a href="#top" class="back-top-btn" aria-label="back top top" data-back-top-btn>
     <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
